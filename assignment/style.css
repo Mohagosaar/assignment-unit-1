@@ -1,13 +1,79 @@
-/* Add a background color to the header element */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(227, 226, 226);
+}
 
-/* Add a fun background color to the main element */
+.mainheader {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 50px;
+}
+.myname {
+  margin-top: 30px;
+}
+.mainheader h1 {
+  margin-top: 50px;
+  font-family: Inter;
+  color: black;
+  text-align: center;
 
-/* Align the h1 containing your name in the center of the header*/
+  margin-top: 0;
+}
+.content {
+  margin-top: 70px;
+  margin-left: 30px;
+  width: 90%;
+  height: 399px;
+  border: 1px solid rgb(159, 159, 159);
+  border-radius: 10px;
+  position: absolute;
+  overflow: hidden;
+}
+.content img {
+  width: 40%;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 1px solid rgb(140, 139, 139);
 
-/* Make your p tag a different color and italic */
+  position: absolute;
 
-/* Put a border around your image */
+  background-color: red;
+}
+.content ul {
+  margin-top: 70px;
+  position: absolute;
+  left: 600px;
+  list-style: square;
+  list-style-position: outside;
+}
+.content ul li {
+  margin-top: 10px;
+  font-family: space mono;
+  font-size: 1.4rem;
+}
 
-/* Change the font-family of your list */
+.content span {
+  background-color: yellow;
+}
+footer {
+  top: 700px;
+  position: absolute;
+  display: block;
+  width: 1000px;
 
-/* Add a background color to the footer element */
+  height: 100px;
+}
+footer hr {
+  width: 90%;
+
+  margin-left: 300px;
+  margin-bottom: 30px;
+}
+footer p {
+  margin-left: 55%;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+}
